@@ -16,61 +16,65 @@ Using two tables (Alumni and Activities), which contain data collected from 2005
 
 
 ### Tables and their columns
-Alumni
+**Alumni**
 
-Column Name     | Data Type | Description
+|Column Name     | Data Type | Description                           |
 
-ID              | integer   | alumni ID
+|----------------|-----------|---------------------------------------|
 
-Degree          | text      | which degree was obtained
+|ID              | integer   | alumni ID                             |
 
-Graduation Year | integer   | year the degree was obtained
+|Degree          | text      | which degree was obtained             |
 
-Activity        | text      | general activity category
+|Graduation Year | integer   | year the degree was obtained          |
 
-Activities      | text      | specific activity
+|Activity        | text      | general activity category             |
 
-CVs             | text      | what kind of public CV the alumni has
+|Activities      | text      | specific activity                     |
 
-Observations    | text      | further details
+|CVs             | text      | what kind of public CV the alumni has |
 
-
-Activities
-
-Column Name                  | Data Type | Description
-
-ID                           | integer   | alumni ID
-
-Degree                       | text      | which degree was obtained
-
-Graduation Year              | integer   | year the degree was obtained
-
-Activity                     | text      | general activity category
-
-Current Role                 | text      | specific role
-
-Other (current role)         | text      | role details
-
-Role characteristics         | text      | legal classification of the role
-
-Other (role characteristics) | text      | classification details
-
-University/Company           | text      | institution where role is conducted
-
-Country                      | text      | country of the institution
-
-City                         | text      | city of the institution
-
-State                        | text      | state/province of the institution
+|Observations    | text      | further details                       |
 
 
-Complete_data
+**Activities**
+
+|Column Name                  | Data Type | Description                         |
+
+|-----------------------------|-----------|-------------------------------------|
+
+|ID                           | integer   | alumni ID                           |
+
+|Degree                       | text      | which degree was obtained           |
+
+|Graduation Year              | integer   | year the degree was obtained        |
+
+|Activity                     | text      | general activity category           |
+
+|Current Role                 | text      | specific role                       |
+
+|Other (current role)         | text      | role details                        |
+
+|Role characteristics         | text      | legal classification of the role    |
+
+|Other (role characteristics) | text      | classification details              |
+
+|University/Company           | text      | institution where role is conducted |
+
+|Country                      | text      | country of the institution          |
+
+|City                         | text      | city of the institution             |
+
+|State                        | text      | state/province of the institution   |
+
+
+**Complete_data**
 
 Columns extracted from Alumni and Activities
 
 
 
-Auxiliary
+**Auxiliary**
 
 Tables used for the dashboard
 
@@ -79,26 +83,27 @@ Tables used for the dashboard
 Although initially it might seem that some categories overlap, such as with Teaching and Education services, their exact definition lets us discriminate between different career paths.
 
 
-Teaching: any teaching role where there is a definite contract between alumni and schools/universities, and which excludes services such as teaching English or other languages.
 
-Research: any research role where there is a definite contract between alumni and schools/universities, encompassing both PhD candidates and Postdoc researchers.
+**Teaching**: any teaching role where there is a definite contract between alumni and schools/universities, and which excludes services such as teaching English or other languages.
 
-Technical/administrative: bureaucratic roles, mostly within the public sector.
+**Research**: any research role where there is a definite contract between alumni and schools/universities, encompassing both PhD candidates and Postdoc researchers.
 
-Education services: language teaching.
+**Technical/administrative**: bureaucratic roles, mostly within the public sector.
 
-Private sector: all-encompassing category that inclues all alumni that work for the private sector outside of the other obvious categories, such as IT Services and analysts.
+**Education services**: language teaching.
 
-Consulting: roles that have as their job title the word "consultant", either in direct connection with a firm or with independent consulting.
+**Private sector**: all-encompassing category that inclues all alumni that work for the private sector outside of the other obvious categories, such as IT Services and analysts.
 
-Project coordination: often related to NGOs.
+**Consulting**: roles that have as their job title the word "consultant", either in direct connection with a firm or with independent consulting.
 
-Cultural/artistic: roles pertaining to the arts, either through performance itself or va administrative roles related to the arts.
+**Project coordination**: often related to NGOs.
 
-Freelancing: any role which is not encompassed by other categories, and that involves no definite contract between alumni and companies/universities/schools.
+**Cultural/artistic**: roles pertaining to the arts, either through performance itself or va administrative roles related to the arts.
 
-Analyst: generic term used by one of the data-gathering humans years ago, related to roles which have the word "analyst" in their job title.
+**Freelancing**: any role which is not encompassed by other categories, and that involves no definite contract between alumni and companies/universities/schools.
 
-Politics or social action: roles related to working directly with politicians or with social movements.
+**Analyst**: generic term used by one of the data-gathering humans years ago, related to roles which have the word "analyst" in their job title.
 
-IT Services: roles directly related to the technology sector.
+**Politics or social action**: roles related to working directly with politicians or with social movements.
+
+**IT Services**: roles directly related to the technology sector.
