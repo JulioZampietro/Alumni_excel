@@ -4,6 +4,8 @@
 Using two tables (Alumni and Activities), which contain data collected from 2005 to 2023 on over 600 alumni from a top-ranking History graduate program in Brazil, I was able to compile data on the professional trajectories of over 450 of them. Among the potential conclusions, four warranted greater attention and are summarized in the Dashboard. First, the vast majority of alumni attained teaching or research roles. Second, alumni often did not stray too far from the University's state, as little over 25% of them effectively left their state's region. Third, from those alumni who pursued a teaching career, over half of them attained positions as higher education professors, which helps to attest the quality of the graduate program. And lastly, while alumni who attained a PhD represent the majority of those in teaching roles, terminal MA holders represent the vast majority of those who pursued a career in the private sector.
 
 
+
+
 ### Data cleaning and manipulation: step by step
 1. Filtered the original tables for History students & removed duplicates, which represented those that attained both an MA and a PhD from the same institution.
 2. Removed sensitive information (full names became tags, and the e-mail, telephone, salaries, gender, and race columns were removed from the Alumni table).
@@ -13,6 +15,8 @@ Using two tables (Alumni and Activities), which contain data collected from 2005
 6. Used VLOOKUP functions to transfer data from the Alumni and Activities tables to the Complete_data table, where it became ready to be compiled. The VLOOKUP functions were wrapped into IFERROR functions, to avoid the creation of #N/A cells that could skew further analysis.
 7. Compiled all relevant data into the Auxiliary table, which included the use of COUNTIF and COUNTIFS functions.
 8. Created a Dashboard table which includes an "alumni per activity" table, as well as three graphs (alumni per state, alumni with teaching activities, and activity distribution per degree).
+
+
 
 
 ### Tables and their columns
@@ -55,6 +59,8 @@ Columns extracted from Alumni and Activities
 **Auxiliary**
 
 Tables used for the dashboard
+
+
 
 
 ### Activity definitions
