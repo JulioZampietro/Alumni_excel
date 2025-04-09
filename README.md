@@ -19,52 +19,30 @@ Using two tables (Alumni and Activities), which contain data collected from 2005
 **Alumni**
 
 |Column Name     | Data Type | Description                           |
-
 |----------------|-----------|---------------------------------------|
-
 |ID              | integer   | alumni ID                             |
-
 |Degree          | text      | which degree was obtained             |
-
 |Graduation Year | integer   | year the degree was obtained          |
-
 |Activity        | text      | general activity category             |
-
 |Activities      | text      | specific activity                     |
-
 |CVs             | text      | what kind of public CV the alumni has |
-
 |Observations    | text      | further details                       |
 
 
 **Activities**
-
 |Column Name                  | Data Type | Description                         |
-
 |-----------------------------|-----------|-------------------------------------|
-
 |ID                           | integer   | alumni ID                           |
-
 |Degree                       | text      | which degree was obtained           |
-
 |Graduation Year              | integer   | year the degree was obtained        |
-
 |Activity                     | text      | general activity category           |
-
 |Current Role                 | text      | specific role                       |
-
 |Other (current role)         | text      | role details                        |
-
 |Role characteristics         | text      | legal classification of the role    |
-
 |Other (role characteristics) | text      | classification details              |
-
 |University/Company           | text      | institution where role is conducted |
-
 |Country                      | text      | country of the institution          |
-
 |City                         | text      | city of the institution             |
-
 |State                        | text      | state/province of the institution   |
 
 
